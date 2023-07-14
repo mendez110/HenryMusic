@@ -1,0 +1,209 @@
+@import url(https://fonts.google.com/specimen/Karla?query=karla);
+*{
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.caja1{
+    background-image: url("img/angel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.caja1 p{
+    text-align: center;
+    padding:400px 150px 400px 250px;
+    margin: 0;
+    font-size: 218px;
+    color: rgb(255, 255, 255);
+}
+
+.caja2 {
+    display: flex;
+    align-items: center;
+    margin:200px 250px 100px 150px;
+  }
+
+  .caja2 p{
+      font-size: 25px;
+      margin: 0 285px 0 0
+  }
+  
+  .text {
+    flex: 1;
+    font-size: 100px;
+  }
+
+  @keyframes gradientText {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+.text m {
+  flex:1 ;
+  font-size: 100px;
+  background: linear-gradient(45deg, red, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientText 5s linear infinite;
+  }
+  
+  
+
+
+  
+  .image {
+    margin-left: 0px; 
+  }
+
+  .my-button {
+    background-color: #e34747; 
+    border: none; 
+    color: white; 
+    padding: 35px 100px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 25px;
+    cursor: pointer; 
+    border-radius: 150px;
+  }
+  
+  .my-button:hover {
+    background-color: #e34747; 
+  }
+
+  .caja3 {
+    display: flex;
+    align-items: center;
+    margin:200px 150px 100px 100px;
+  }
+
+  .caja3 p{
+      font-size: 25px;
+      margin: 0 285 0 0px;
+  }
+  
+  .image2 {
+    margin-right: 0px; 
+  }
+  
+  .text2 {
+    flex: 1;
+    font-size: 80px;
+  }
+
+  @keyframes gradientText {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .text2 s {
+    flex:1 ;
+    font-size: 100px;
+    background: linear-gradient(45deg, red, purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientText 5s linear infinite;
+    }
+  
+  .caja4{
+    background-image: url("img/raptis.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    margin: 0;
+    padding: 160px 0 80px 0;
+    color:#FFFFFF;
+}
+
+.textoo{
+  flex: 1;
+  font-size: 80px;
+  margin: 0px 100px 0px 850px;
+}
+
+
+
+.textoo p{
+  font-size: 25px;
+  margin: 0 285 0 0px;
+}
+
+.caja5{
+  background-color:#e34747;
+  justify-content: center;
+  padding: 80px 230px 50px 340px;
+}
+
+.caja5 hr{
+  border: none;
+  border-top: 1px solid rgb(255, 255, 255);
+  margin: 0;
+}
+
+table {
+  border-collapse: separate;
+  width: 100%;
+  justify-content: center;
+  margin:0 0 50px 0;
+}
+
+th, td , tr{
+  background-color: #e34747;
+  border: 1px solid #e34747;
+  padding: 12px;
+  text-align: left;
+  color:#FFFFFF;
+  font-size: 20px;
+  margin-right:150px;
+}
+
+.cuadro{
+  margin:50px 0 80px 0;
+  border-collapse: separate;
+  width: 100%;
+  justify-content: center;
+}
+
+.cuadro th, td , tr{
+  background-color: #e34747;
+  border: 1px solid #e34747;
+  padding: 12px;
+  text-align: left;
+  color:#FFFFFF;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0;
+  padding: 0 227px 100px 350px;
+  background-color: #e34747;
+  color:#FFFFFF;
+  font-size: 20px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+
+
+  
